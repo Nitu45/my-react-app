@@ -40,7 +40,7 @@ const FavoriteActors = () => {
     <div style={{ overflowX: 'auto', whiteSpace: 'nowrap', padding: '20px' }}>
       {actors.map((actor, index) => (
         <Link
-          to={`/actor/${actor.id}`} // Route to actor profile
+          to={`/actor/${actor.id}`} 
           key={index}
           style={{
             display: 'inline-block',
