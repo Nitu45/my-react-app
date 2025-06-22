@@ -1,0 +1,25 @@
+.profile-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .profile-section {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: white;
+  }
+  
+  .profile-section h3 {
+    margin-bottom: 10px;
+  }
+  
+  .profile-section ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .profile-section li {
+    margin-bottom: 5px;
+  }

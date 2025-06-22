@@ -1,0 +1,17 @@
+.carousel-container {
+  padding: 20px;
+}
+
+.carousel-item {
+  padding: 10px;
+  text-align: center;
+}
+
+.carousel-item img {
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

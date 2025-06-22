@@ -1,0 +1,12 @@
+
+.favorite-container {
+  padding: 20px;
+  color: white;
+  background: #000;
+}
+
+.actor-list {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}

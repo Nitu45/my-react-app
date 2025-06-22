@@ -1,0 +1,21 @@
+.actor-profile {
+  padding: 30px;
+  text-align: center;
+}
+
+.actor-profile img {
+  width: 200px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.actor-profile h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.actor-profile p {
+  font-size: 18px;
+  color: #444;
+  line-height: 1.5;
+}

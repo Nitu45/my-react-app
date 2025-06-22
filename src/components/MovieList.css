@@ -1,0 +1,78 @@
+.movie-list-container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.toggle-buttons {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.toggle-buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #eee;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-buttons button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.grid-view {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.list-view {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.movie-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.movie-card:hover {
+  transform: scale(1.02);
+}
+
+.list-view .movie-card {
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.movie-card img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.list-view .movie-card img {
+  margin-right: 20px;
+}
+
+.movie-info {
+  text-align: center;
+}
+
+.list-view .movie-info {
+  text-align: left;
+}
