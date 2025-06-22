@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "title": "Jawan",
+      "poster": "/images/jawan.jpg",
+      "trailer": "/videos/jawan.mp4",
+      "genre": "Action",
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "title": "KGF 2",
+      "poster": "/images/kgf2.jpg",
+      "trailer": "/videos/kgf2.mp4",
+      "genre": "Drama",
+      "rating": 4.8
+    },
+    {
+      "id": 3,
+      "title": "RRR",
+      "poster": "/images/rrr.jpg",
+      "trailer": "/videos/rrr.mp4",
+      "genre": "Historical",
+      "rating": 4.6
+    },
+    {
+      "id": 4,
+      "title": "Pushpa",
+      "poster": "/images/pushpa.jpg",
+      "trailer": "/videos/pushpa.mp4",
+      "genre": "Action",
+      "rating": 4.2
+    },
+    {
+      "id": 5,
+      "title": "Pathaan",
+      "poster": "/images/pathaan.jpg",
+      "trailer": "/videos/pathaan.mp4",
+      "genre": "Thriller",
+      "rating": 4.4
+    }
+  ]

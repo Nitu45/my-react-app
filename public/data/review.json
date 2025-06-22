@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "movieId": 1,
+    "review": "Allu Arjun nailed it!",
+    "date": "2024-10-01T18:30:00.000Z"
+  },
+  {
+    "id": 2,
+    "movieId": 2,
+    "review": "Superb cinematography!",
+    "date": "2024-10-02T18:30:00.000Z"
+  }
+]

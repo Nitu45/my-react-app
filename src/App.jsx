@@ -15,7 +15,7 @@ import MovieReview from './components/MovieReview';
 import MovieReviewList from './components/MovieReviewList';
 import WatchlistPage from './components/WatchlistPage';
 import OMDbDetails from './components/OMDbDetails';
-import Recommendations from './components/Recommendations';
+import Recommendationse from './components/Recommendations';
 import AdvancedSearch from './components/AdvancedSearch';
 import TmdbDetails from './components/TmdbDetails';
 
@@ -29,12 +29,11 @@ function App() {
   const [searchQuery, setSearchQuery] = useState('');
   const { darkMode, toggleTheme } = useTheme();
 
+ 
   useEffect(() => {
-    const apiUrl = `${import.meta.env.VITE_API_BASE_URL}/movies`;
-    axios
-      .get(apiUrl)
-      .then((res) => setMovies(res.data))
-      .catch((err) => console.error('❌ Error fetching movies:', err));
+    axios.get('/data/movie.json')
+      .then(res => setMovies(res.data))
+      .catch(err => console.error("Error loading movies:", err));
   }, []);
 
   const handleSearch = (query) => {
@@ -185,22 +184,21 @@ function App() {
               <MovieReview movieId={1} />
 
               <h2 style={{ marginTop: '30px' }}>User Reviews</h2>
-              <MovieReviewList />
+              <MovieReviewList movieId={1} />
 
               <h2 style={{ marginTop: '40px' }}>Movie Info (from OMDb)</h2>
               <OMDbDetails title="Jawan" />
 
               <h2 style={{ marginTop: '40px' }}>Recommended Movies</h2>
-              
+              {/*<Recommendations />*/}
 
-              <h2 style={{ marginTop: '40px' }}>Movie Imfo (from TMDB)</h2>
+              <h2 style={{ marginTop: '40px' }}>Movie Info (from TMDB)</h2>
               <TmdbDetails />
             </div>
           } />
 
           <Route path="/actor/:id" element={<ActorProfile />} />
           <Route path="/watchlist" element={<WatchlistPage />} />
-          <Route path="/reviews" element={<MovieReviewList />} />
         </Routes>
       </div>
     </WatchlistProvider>
