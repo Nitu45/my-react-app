@@ -114,7 +114,7 @@ function App() {
         {showAuthModal && <AuthModal onClose={() => setShowAuthModal(false)} />}
 
         <Routes>
-          <Route path="/" element={
+          <Route path='/' element={
             <div style={{ padding: '20px' }}>
               <TrendingCarousel movies={movies} />
 
