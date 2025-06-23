@@ -14,7 +14,7 @@ import AuthModal from './components/AuthModal';
 import MovieReview from './components/MovieReview';
 import MovieReviewList from './components/MovieReviewList';
 import WatchlistPage from './components/WatchlistPage';
-import OMDbDetails from './components/OMDbDetails';
+import OMDbDetails from './components/OmdbDetails';
 import Recommendationse from './components/Recommendations';
 import AdvancedSearch from './components/AdvancedSearch';
 import TmdbDetails from './components/TmdbDetails';
