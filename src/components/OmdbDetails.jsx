@@ -1,4 +1,3 @@
-// src/components/OMDbDetails.jsx
 import React from 'react';
 
 const OMDbDetails = ({ movie }) => {
@@ -12,5 +11,4 @@ const OMDbDetails = ({ movie }) => {
     </div>
   );
 };
-
 export default OMDbDetails;

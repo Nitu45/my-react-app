@@ -18,7 +18,6 @@ import OMDbDetails from './components/OMDbDetails';
 import Recommendationse from './components/Recommendations';
 import AdvancedSearch from './components/AdvancedSearch';
 import TmdbDetails from './components/TmdbDetails';
-
 import { WatchlistProvider } from './context/WatchlistContext';
 import { useTheme } from './context/ThemeContext';
 
